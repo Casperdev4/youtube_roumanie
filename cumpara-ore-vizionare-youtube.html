@@ -30,84 +30,148 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Aceste ore sunt luate in considerare pentru monetizare?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Da, totalitatea orelor de vizionare pe care le livram sunt recunoscute de YouTube si contribuie direct la atingerea pragului de 4000 ore cerut de Programul de Parteneri YouTube. Serviciu disponibil pentru creatorii din Romania."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Aceste ore sunt luate in considerare pentru monetizare?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Da, totalitatea orelor de vizionare pe care le livram sunt recunoscute de YouTube si contribuie direct la atingerea pragului de 4000 ore cerut de Programul de Parteneri YouTube. Serviciu disponibil pentru creatorii din Romania."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "In cat timp sunt livrate orele?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Livrarea incepe in 24 de ore de la plasarea comenzii. Durata totala depinde de pachetul ales, de la 3 zile pentru 1000 ore pana la 10 zile pentru 4000 ore de vizionare."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Exista vreun risc pentru canalul meu YouTube?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nu. Orele noastre de vizionare provin de la utilizatori autentici. Metoda noastra este in totalitate conforma cu regulile YouTube. Canalul dvs. ramane in deplina siguranta."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Cate ore sunt necesare pentru monetizare?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "YouTube cere 4000 ore de vizionare publica in ultimele 12 luni, plus minimum 1000 de abonati, pentru a accesa Programul de Parteneri YouTube si a debloca monetizarea."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Ore de Vizionare YouTube in Romania",
+                "description": "Obtineti ore de vizionare YouTube in Romania pentru a atinge pragul monetizarii. 4000 ore de vizionare necesare pentru Programul de Parteneri. Vizionare autentica, livrare rapida si securizata.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Cumpara-Abonati.com"
+                },
+                "image": "https://cumpara-abonati.com/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "EUR",
+                    "lowPrice": "69",
+                    "highPrice": "249",
+                    "offerCount": "4",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "In cat timp sunt livrate orele?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Livrarea incepe in 24 de ore de la plasarea comenzii. Durata totala depinde de pachetul ales, de la 3 zile pentru 1000 ore pana la 10 zile pentru 4000 ore de vizionare."
+                "@type": "Organization",
+                "name": "Cumpara Abonati YouTube",
+                "url": "https://cumpara-abonati.com",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Serviciile noastre",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "cumpara ore vizionare youtube",
+                                "url": "https://cumpara-abonati.com/cumpara-ore-vizionare-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Exista vreun risc pentru canalul meu YouTube?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nu. Orele noastre de vizionare provin de la utilizatori autentici. Metoda noastra este in totalitate conforma cu regulile YouTube. Canalul dvs. ramane in deplina siguranta."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Cate ore sunt necesare pentru monetizare?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "YouTube cere 4000 ore de vizionare publica in ultimele 12 luni, plus minimum 1000 de abonati, pentru a accesa Programul de Parteneri YouTube si a debloca monetizarea."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "1 000 Ore",
+                            "description": "Pack 1 000 Ore.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "69",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "2 000 Ore",
+                            "description": "Pack 2 000 Ore.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "129",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "3 000 Ore",
+                            "description": "Pack 3 000 Ore.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "189",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 4,
+                        "item": {
+                            "@type": "Product",
+                            "name": "4 000 Ore",
+                            "description": "Pack 4 000 Ore.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "249",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Ore de Vizionare YouTube in Romania",
-        "description": "Obtineti ore de vizionare YouTube in Romania pentru a atinge pragul monetizarii. 4000 ore de vizionare necesare pentru Programul de Parteneri. Vizionare autentica, livrare rapida si securizata.",
-        "brand": {
-            "@type": "Brand",
-            "name": "Cumpara-Abonati.com"
-        },
-        "image": "https://cumpara-abonati.com/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "EUR",
-            "lowPrice": "69",
-            "highPrice": "249",
-            "offerCount": "4",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Cumpara Abonati YouTube",
-        "url": "https://cumpara-abonati.com",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Serviciile noastre",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Cumpara Ore Vizionare YouTube",
-                        "url": "https://cumpara-abonati.com/cumpara-ore-vizionare-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>

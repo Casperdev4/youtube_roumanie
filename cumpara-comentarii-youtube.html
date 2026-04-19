@@ -30,84 +30,133 @@
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": "FAQPage",
-        "mainEntity": [
+        "@graph": [
             {
-                "@type": "Question",
-                "name": "Pot alege conținutul comentariilor?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Absolut. Fiecare comentariu este complet personalizat. Ne transmiteți mesajele dorite și noi le publicăm sub videoclipul dvs. Păstrați controlul integral asupra conținutului publicat. Serviciu disponibil pentru creatorii YouTube din România."
+                "@type": "FAQPage",
+                "mainEntity": [
+                    {
+                        "@type": "Question",
+                        "name": "Pot alege conținutul comentariilor?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Absolut. Fiecare comentariu este complet personalizat. Ne transmiteți mesajele dorite și noi le publicăm sub videoclipul dvs. Păstrați controlul integral asupra conținutului publicat. Serviciu disponibil pentru creatorii YouTube din România."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "În cât timp apar comentariile?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Livrarea începe în interval de 12 până la 24 de ore de la plasarea comenzii. Durata totală variază în funcție de cantitatea comandată, de la 12h pentru 5 comentarii până la 6 zile pentru 100 comentarii."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Există vreun risc pentru canalul meu YouTube?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Nicidecum. Comentariile noastre provin de la conturi verificate și active. Abordarea noastră este naturală și sigură pentru canalul tău YouTube. Nicio penalizare nu este posibilă."
+                        }
+                    },
+                    {
+                        "@type": "Question",
+                        "name": "Comentariile sunt permanente?",
+                        "acceptedAnswer": {
+                            "@type": "Answer",
+                            "text": "Da, comentariile rămân vizibile permanent sub videoclipul tău. Fiind publicate de conturi autentice și active, permanența lor este asigurată în timp."
+                        }
+                    }
+                ]
+            },
+            {
+                "@type": "Product",
+                "name": "Comentarii YouTube în România",
+                "description": "Obțineți comentarii YouTube personalizate 100% autentice în România. Comentarii de calitate superioară pentru videoclipurile dvs., livrare rapidă și securizată. De la 47 euro pentru 100 comentarii.",
+                "brand": {
+                    "@type": "Brand",
+                    "name": "Cumpara-Abonati.com"
+                },
+                "image": "https://cumpara-abonati.com/logo.png",
+                "offers": {
+                    "@type": "AggregateOffer",
+                    "priceCurrency": "EUR",
+                    "lowPrice": "47",
+                    "highPrice": "245",
+                    "offerCount": "3",
+                    "availability": "https://schema.org/InStock"
                 }
             },
             {
-                "@type": "Question",
-                "name": "În cât timp apar comentariile?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Livrarea începe în interval de 12 până la 24 de ore de la plasarea comenzii. Durata totală variază în funcție de cantitatea comandată, de la 12h pentru 5 comentarii până la 6 zile pentru 100 comentarii."
+                "@type": "Organization",
+                "name": "Cumpara Abonati YouTube",
+                "url": "https://cumpara-abonati.com",
+                "hasOfferCatalog": {
+                    "@type": "OfferCatalog",
+                    "name": "Serviciile noastre",
+                    "itemListElement": [
+                        {
+                            "@type": "Offer",
+                            "itemOffered": {
+                                "@type": "Service",
+                                "name": "cumpara comentarii youtube",
+                                "url": "https://cumpara-abonati.com/cumpara-comentarii-youtube.html"
+                            }
+                        }
+                    ]
                 }
             },
             {
-                "@type": "Question",
-                "name": "Există vreun risc pentru canalul meu YouTube?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Nicidecum. Comentariile noastre provin de la conturi verificate și active. Abordarea noastră este naturală și sigură pentru canalul tău YouTube. Nicio penalizare nu este posibilă."
-                }
-            },
-            {
-                "@type": "Question",
-                "name": "Comentariile sunt permanente?",
-                "acceptedAnswer": {
-                    "@type": "Answer",
-                    "text": "Da, comentariile rămân vizibile permanent sub videoclipul tău. Fiind publicate de conturi autentice și active, permanența lor este asigurată în timp."
-                }
+                "@type": "ItemList",
+                "name": "Offres",
+                "itemListElement": [
+                    {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "item": {
+                            "@type": "Product",
+                            "name": "100 Comentarii",
+                            "description": "Pack 100 Comentarii.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "47",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "item": {
+                            "@type": "Product",
+                            "name": "300 Comentarii",
+                            "description": "Pack 300 Comentarii.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "98",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    },
+                    {
+                        "@type": "ListItem",
+                        "position": 3,
+                        "item": {
+                            "@type": "Product",
+                            "name": "500 Comentarii",
+                            "description": "Pack 500 Comentarii.",
+                            "offers": {
+                                "@type": "Offer",
+                                "availability": "https://schema.org/InStock",
+                                "price": "245",
+                                "priceCurrency": "EUR"
+                            }
+                        }
+                    }
+                ]
             }
         ]
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Product",
-        "name": "Comentarii YouTube în România",
-        "description": "Obțineți comentarii YouTube personalizate 100% autentice în România. Comentarii de calitate superioară pentru videoclipurile dvs., livrare rapidă și securizată. De la 47 euro pentru 100 comentarii.",
-        "brand": {
-            "@type": "Brand",
-            "name": "Cumpara-Abonati.com"
-        },
-        "image": "https://cumpara-abonati.com/logo.png",
-        "offers": {
-            "@type": "AggregateOffer",
-            "priceCurrency": "EUR",
-            "lowPrice": "47",
-            "highPrice": "245",
-            "offerCount": "3",
-            "availability": "https://schema.org/InStock"
-        }
-    }
-    </script>
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Cumpara Abonati YouTube",
-        "url": "https://cumpara-abonati.com",
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "Serviciile noastre",
-            "itemListElement": [
-                {
-                    "@type": "Offer",
-                    "itemOffered": {
-                        "@type": "Service",
-                        "name": "Cumpara Comentarii YouTube",
-                        "url": "https://cumpara-abonati.com/cumpara-comentarii-youtube.html"
-                    }
-                }
-            ]
-        }
     }
     </script>
 </head>
